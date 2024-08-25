@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Seymour+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #C1DADF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-nav {
+    margin-right: 450px;
+}
+
+.navbar p {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #142850;
+    margin-left: 30px;
+}
+
+.navbar-nav a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #25272a;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.head{
+    background-color: #0C7B93;
+    padding-bottom: 25rem;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.head h1{
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+}
+
+.head p{
+    text-align: center;
+    position: absolute;
+    top: 5rem;
+    max-width: 65rem;
+    left: 20rem;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.gambar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.foto-besar {
+    width: 100%; 
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.foto-besar img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.foto-kecil1 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 50rem;
+    top: 38rem;
+    gap: 10rem; 
+}
+
+.foto-kecil1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+/* conten ke 2 */
+.foto-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.gambaran {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.foto-besar1 {
+    width: 100%; 
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.foto-besar1 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    padding-left: 50rem;
+}
+
+.foto-kecil2 {
+    position: absolute;
+    display: grid;
+    padding-left: 5rem;
+    grid-template-columns: repeat(2, 1fr); 
+    top: 80rem;
+    gap: 10rem; 
+}
+
+.foto-kecil2 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    
+    
+}
+
+/* footer */
+.footer {
+    margin-top: 200px;
+    padding-top: 10px;
+    background-color: #0C7B93;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.footer .row-footer .isi-company a {
+    display: flex;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.footer .row-footer .isi-get p { 
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.footer .row-footer .deskripsi {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 500px;
+}
+.footer .row-footer .deskripsi p {
+    padding-top: 15px;
+    font-size: 15px;
+}
+.footer .row-footer .icons {
+    padding-top: 15px;
+    font-size: 40px;
+}
+.footer .row-footer .icons a {
+    color: #ffffff;
+}
+
+/* footer */

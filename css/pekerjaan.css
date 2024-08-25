@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Seymour+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+/* Navbar */
+.navbar {
+    background-color: #C1DADF;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-nav {
+    margin-right: 450px;
+}
+.navbar p {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #142850;
+    margin-left: 30px;
+}
+.navbar-nav a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#25272a;
+    font-size: 17px ;
+    margin: 10px;
+}
+.header{
+    background-color: #0C7B93;
+    padding-bottom: 27rem;
+}
+
+.container{
+    background-color: #0C7B93;
+    padding-bottom: 20rem;
+    width: auto ;
+}
+
+.text-section {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10rem;
+    padding-left: 15rem;
+}
+
+.text-section p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.gallery{
+    background-color: #C1DADF;
+    margin-top: 15rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    padding-bottom: 8rem;
+    margin-bottom: 10rem;
+    display: flex;
+    gap: 5rem; 
+    justify-content: flex-end; 
+}
+
+.gallery {
+    display: flex;
+    gap: 15rem;
+     background-color: #C1DADF;
+}
+
+.circle-container {
+    text-align: center; 
+    margin-right: 10rem;
+}
+
+.box-1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;  
+    top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.box-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.pet{
+    background-color: #C1DADF;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.gambar{
+    position: relative;
+}
+
+.gambar img {
+    width: 300px;
+    height: auto;
+    margin-left: 63rem;
+    top: 80rem;
+    padding-left: 5rem; 
+}
+
+.gambar h1 {
+    position: absolute;
+    top: 4rem; 
+    left: 15rem; /* Sesuaikan jika perlu */
+    font-family: "Poppins", sans-serif;
+}
+
+.gambar p {
+    position: absolute;
+    top: 7rem;
+    left: 15rem;
+    max-width: 50rem;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+/*  */
+
+.p {
+    background-color: #C1DADF;
+    margin-top: 15rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    padding-bottom: 8rem;
+    margin-bottom: 10rem;
+    display: flex;
+    gap: 5rem; 
+    justify-content: flex-end; 
+}
+
+.tulisan{
+    position: relative; 
+}
+.tulisan h1{
+    position: absolute;
+    top: 8rem; 
+    left: -45rem; 
+    max-width: 25rem;
+    font-family: "Poppins", sans-serif;
+}
+ 
+.tulisan p{
+    position: absolute;
+    top: 10rem;
+    left: -45rem;
+    max-width: 40rem;
+    margin-top: 5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.lingkaran {
+    text-align: center; 
+}
+.box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;  
+    top: 10rem;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10rem;
+}
+/* footer */
+
+.footer {
+    background-color: #0C7B93;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.footer .row-footer .isi-company a {
+    display: flex;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.footer .row-footer .isi-get p { 
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.footer .row-footer .deskripsi {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 500px;
+}
+.footer .row-footer .deskripsi p {
+    padding-top: 15px;
+    font-size: 15px;
+}
+.footer .row-footer .icons {
+    padding-top: 15px;
+    font-size: 40px;
+}
+.footer .row-footer .icons a {
+    color: #ffffff;
+}
